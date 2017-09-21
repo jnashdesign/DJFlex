@@ -1,0 +1,375 @@
+:focus {
+    outline: none!important;
+}
+.hide {
+  display:none!important;
+}
+.show {
+  display:block!important;
+}
+hr.mt-2 {
+    border: 1px solid #fff;
+}
+.btn {
+    background: #000;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+}
+.showLogin, .showSignUp {
+  display: block;
+  margin: 10px auto;
+  border: none;
+  z-index: 9999999999;
+  position: relative;
+  width: calc(100% - 40px);
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+}
+#btnSignUp, #btnLogin {
+  cursor: pointer;
+  width: 100%;
+  border-radius: 6px;
+}
+.loginBG {
+  z-index: 1031;
+  width: 100%;
+  height: 115%;
+  background: url('../img/loginBG_lowres.jpg') no-repeat #222529;
+  position: absolute;
+  top:0;right:0;bottom:0;left:0;
+  opacity: 0.6;
+  max-width: 500px;
+  margin: 0 auto;
+  filter:blur(3px);
+}
+.loginForm, .signUpForm {
+    z-index: 1032;
+    position: relative;
+    float: left;
+    display: none;
+    margin: 20px;
+    background: rgba(0,0,0,0.4);
+    width: calc(100% - 40px);
+    padding: 20px;
+    border-radius: 10px;
+}
+.loginFlow {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    max-width: 500px;
+}
+.showLoginButtons {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 100;
+}
+.showLoginButtons img {
+    max-width: 25px;
+    display: block;
+    margin-bottom: 20px;
+}
+.loginButtons{
+  float:left;
+  width:100%;
+  margin-top: 100px;
+}
+.signUpForm {
+    margin-top: 20px;
+}
+.loginForm p, .signUpForm p {
+    font-size: 20px;
+    font-weight: 300;
+}
+.loginAndSignUp input {
+    padding: 10px 5px;
+    margin: 10px 10px 10px 0;
+    width: 100%!important;
+    border-radius: 10px;
+    color:#eee;
+}
+.loginAndSignUp input:placeholder{
+  color:#eee;
+}
+.loginAndSignUp select {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  clear:both;
+}
+li.nav-item {
+    padding: 0 10px;
+}
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: inherit;
+}
+body {
+  color: #fff;
+  max-width: 500px;
+  overflow-x: hidden;
+  margin:0 auto;
+}
+.card {
+    background: #000;
+}
+.card:hover {
+  background: #343a40;
+}
+.searchContainer {
+  padding:20px 30px;
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1rem;
+  min-height: 200px;
+}
+.card-footer {
+  position: relative;
+}
+.requests {
+    font-size: 12px;
+    position: absolute;
+    text-transform: uppercase;
+    bottom: 0px;
+    right: 8px;
+}
+.requestNumber {
+  font-size: 115px;
+  font-weight: 100;
+  opacity: 0.35;
+  position: absolute;
+  bottom: -40px;
+  right: -10px;
+}
+.songName {
+  font-size: 20px;
+  max-width: 200px;
+  overflow: hidden;
+}
+.loginButtons img {
+    display: block;
+    margin: 0 auto;
+    z-index: 1031;
+    position: relative;
+}
+button.showSignUp {
+    background: #111;
+}
+nav.fixed-top {
+    background: #000 !important;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.navbar-dark .navbar-toggler{
+  cursor: pointer;
+  background-color:#222;
+}
+.songInfo strong {
+  font-size: 14px;
+}
+#songList {
+  padding: 10px -15px;
+}
+#songList a {
+  color: #fff !important;
+}
+.mr-5 {
+  margin-right: 3rem!important;
+  background: rgba(0,0,0,0.35);
+  margin-left: -1.25rem!important;
+  padding-left: 1rem;
+  display: inline-block;
+  padding-right: 10px;
+}
+.request {
+  padding: 10px 20px;
+  background: #000;
+  color: #fff !important;
+  border-radius: 5px;
+  text-decoration: none !important;
+}
+.nowPlaying .card-footer {
+  background-color: #000;
+}
+.alreadyPlayed {
+  display: none;
+}
+#searchResult {
+  display: block;
+  width: 100%;
+  color: #000;
+  padding: 0 10px 0 0;
+  margin-top: 20px;
+  list-style: none;
+  clear: both;
+}
+#searchResult li {
+  display: table;
+  line-height: 1em;
+  margin: 5px 5px 0 0;
+  width: calc(30% - 5px);
+  float: left;
+  border: 1px solid #222;
+  background: #000;
+  border-radius: 3px;
+  color: #fff;
+}
+#searchResult li img {
+  float:left;
+  padding-right: 10px;
+  width:100px;
+  height: 90px;
+}
+#searchResult li p {
+  padding:3px 0;
+  display:table-cell;
+  vertical-align:middle;
+  height:90px;
+  padding-right: 10px;
+  width: 100%;
+}
+input[type="text"]{
+  padding: 10px;
+  font-weight: 100;
+  width: calc(100% - 125px);
+}
+input[type="submit"] {
+    background: #000;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    padding: 12px 30px;
+}
+.ui-autocomplete {
+  list-style: none;
+  padding: 0;
+  color: #000;
+  line-height: 1em;
+  margin-top: 20px;
+  background: #fff;
+  width: calc(100% - 5%);
+  box-shadow: 0 1px 1px rgba(0,0,0,.3);
+  z-index: 1000;
+}
+.ui-autocomplete::before{
+  content: 'Previously Requested Songs:';
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 10px;
+}
+.ui-autocomplete li {
+  padding: 10px;
+  z-index: 1000;
+  cursor: pointer;
+}
+#requestedSong {
+  cursor: pointer;
+  box-shadow: 0 1px 1px rgba(0,0,0,.3);
+  padding: 0;
+  border-radius: 3px;
+  position: relative;
+}
+.py-3 {
+  padding: 0 !important;
+  background: #121212;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.searchContainer button {
+    background: #222;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 6px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    width: calc(100% - 10px);
+}
+.alert.alert-success {
+  width: 100%;
+  position:absolute;
+  top:70px;
+  left:0px;
+  padding:5px 10px;
+  border-radius: 0px;
+}
+.ui-helper-hidden-accessible {
+  display: none;
+}
+.loginAndSignUp input[type="text"],
+.loginAndSignUp input[type="date"],
+.loginAndSignUp input[type="datetime"],
+.loginAndSignUp input[type="email"],
+.loginAndSignUp input[type="number"],
+.loginAndSignUp input[type="search"],
+.loginAndSignUp input[type="time"],
+.loginAndSignUp input[type="url"],
+.loginAndSignUp input[type="password"],
+.loginAndSignUp input[type="tel"],
+.loginAndSignUp textarea,
+.loginAndSignUp select {
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #fff;
+    color:#000;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+
+}
+@media (max-width:600px){
+  .searchContainer {
+      padding: 0 15px !important;
+  }
+  .col-lg-12 {
+      padding: 0;
+  }
+}
+@media (max-width:800px){
+  #searchResult li {
+    width: calc(100% - 5px);
+  }
+  .col-sm-6 {
+    width: 100% !important;
+    flex: none!important;
+    display: block!important;
+    max-width: 100%!important;
+  }
+  .card-body {
+    background-position: 0 -125px!important;
+  }
+}
+@media (max-width:500px){
+  .card-body {
+    background-position: 0 -75px!important;
+  }
+}
+@media (min-width: 1200px){
+  .card-columns {
+      column-count: 2;
+      margin: 0 20px;
+  }
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-toggler {
+    display: block;
+}
